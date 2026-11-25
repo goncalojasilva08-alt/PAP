@@ -1,0 +1,24 @@
+/* Sistema visual do Figma: #1F3A5F #D4A24C #F7F5F0 #1C1C1C #6B6B6B #FFFFFF */
+:root{--bs-primary:#1F3A5F;--bs-primary-rgb:31,58,95;--bs-link-color-rgb:31,58,95;--bs-body-bg:#F7F5F0;--bs-body-color:#1C1C1C;--bs-secondary-color:#6B6B6B;--bs-body-font-family:Inter,sans-serif;--bs-border-radius:.5rem;--ouro:#D4A24C}
+h1,h2,h3,h4,h5,.preco,.navbar-brand{font-family:Poppins,sans-serif;font-weight:600;color:var(--bs-primary)}
+.btn-primary,.btn-outline-primary{--bs-btn-color:#fff;--bs-btn-bg:#1F3A5F;--bs-btn-border-color:#1F3A5F;--bs-btn-hover-bg:#17304f;--bs-btn-hover-border-color:#17304f;--bs-btn-active-bg:#17304f}
+.btn-outline-primary{--bs-btn-color:#1F3A5F;--bs-btn-bg:transparent;--bs-btn-hover-color:#fff;--bs-btn-active-color:#fff;--bs-btn-active-border-color:#1F3A5F}
+.btn-ouro{--bs-btn-color:#1C1C1C;--bs-btn-bg:#D4A24C;--bs-btn-border-color:#D4A24C;--bs-btn-hover-color:#1C1C1C;--bs-btn-hover-bg:#c4923d;--bs-btn-hover-border-color:#c4923d;--bs-btn-active-color:#1C1C1C;--bs-btn-active-bg:#b8862f;--bs-btn-active-border-color:#b8862f;font-weight:500}
+.form-check-input:checked{background-color:#1F3A5F;border-color:#1F3A5F}
+.nav-pills{--bs-nav-pills-link-active-bg:#1F3A5F}
+.list-group{--bs-list-group-active-bg:#1F3A5F;--bs-list-group-active-border-color:#1F3A5F}
+.pagination{--bs-pagination-color:#1F3A5F;--bs-pagination-active-bg:#1F3A5F;--bs-pagination-active-border-color:#1F3A5F}
+.eyebrow{color:var(--ouro);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.hero{background:linear-gradient(rgba(31,58,95,.7),rgba(31,58,95,.7)),linear-gradient(135deg,#5a7ea8,#1F3A5F);/* trocar por background-image:url(img/hero.jpg) */color:#fff;border-radius:.75rem}
+.hero h1{color:#fff}
+.pesquisa{margin-top:-4rem}
+.foto{position:relative;background:linear-gradient(135deg,#a9bdd6,#4d6f99);border-radius:.5rem} /* trocar por <img class="img-fluid"> */
+.imovel .foto{height:200px;border-radius:.5rem .5rem 0 0}
+.imovel .badge{position:absolute;top:12px;left:12px}
+.fav{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--bs-primary)}
+.preco{font-size:1.4rem}
+.mini{width:84px;height:60px;flex:none}
+.mapa{height:240px;background:#e6e2d8 repeating-linear-gradient(90deg,transparent 0 140px,#fff 140px 160px);border-radius:.5rem}
+.dropzone{border:2px dashed #b9b4a6!important;cursor:pointer}
+footer{background:var(--bs-primary);color:#fff}
+footer a{color:#fff;text-decoration:none}
